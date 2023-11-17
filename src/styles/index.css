@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 /* 
 
     You can write your own styles here...
@@ -10,3 +11,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    margin-top: 100px;
+    align-content: center;
+    color: purple;
+}
+.container {
+   
+    margin-left: 35%;
+    font-family: 'Quicksand', sans-serif;
+    border: 2px purple outset;
+    width: 450px;
+}
+ul {
+    padding: 0;
+    margin-bottom: 0;
+ 
+    justify-content: center;
+}
+ul li {
+    border: 1px ridge  purple ;
+    text-align: left;
+    list-style: none;
+    padding: 5px;
+    width: 400px;
+}
+h1 {
+    margin: bottom 10%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+input {
+    border: none; width: 100%;
+}
+.FontAwesomeIcon {
+    padding-left: 30px;
+}
+
